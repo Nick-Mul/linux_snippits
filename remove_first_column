@@ -1,0 +1,1 @@
+ awk '{sub(/[^,]*/,"");sub(/,/,"")} 1' input.csv > output.csv
