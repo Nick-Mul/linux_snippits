@@ -1,0 +1,1 @@
+head -n 1 REAL_input_out_1.csv > combined.out && tail -n+2 -q *.csv >> combined.out
